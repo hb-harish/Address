@@ -9,9 +9,9 @@ public class AddressApp {
 	{
 		Scanner sc = new Scanner(System.in);
 		Address a = new Address();
-		String x = sc.next();
+		String x = sc.nextLine();
 		a.setName(x);
-		x = sc.next();
+		x = sc.nextLine();
 		a.setAddress(x);
 		x = sc.next();
 		a.setCity(x);
@@ -37,7 +37,7 @@ public class AddressApp {
 		System.out.println("\n The deatils of the address are as follows : \n");
 		System.out.println(a.getName() + " " + a.getAddress() + " " + a.getCity() + 
 				" " + a.getState() + " " + a.getZip() + " " + a.getPhone() + " " + a.getEmail());
-			
+		System.out.println("\n" + a.getMailaddress());
 		// TODO Auto-generated method stub
 
 	}

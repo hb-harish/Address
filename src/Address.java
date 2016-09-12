@@ -99,5 +99,9 @@ public class Address {
 	{
 		return email;
 	}
+	public String getMailaddress()
+	{
+		return String.format(name + "\n" + addr + "\n" + city + ", " + state + " " + zip);
+	}
 
 }
